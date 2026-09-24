@@ -1,0 +1,100 @@
+[
+  {
+    "id": "target",
+    "number": "01",
+    "verb": "TARGET",
+    "title": "Targeted & extrahepatic delivery",
+    "short": "Direct RNA carriers to selected tissues and cell populations.",
+    "summary": "Research on lymphatic transport, lymphatic and tumor endothelium, and brain capillary endothelial cells links carrier properties with biological barriers. Delivery to brain capillary endothelial cells is distinguished from transport across the blood–brain barrier.",
+    "steps": [
+      "Carrier properties",
+      "Tissue distribution",
+      "Cellular uptake"
+    ],
+    "diagram": "target",
+    "techniques": [
+      "Ligand modification",
+      "Administration-route studies",
+      "In vitro / in vivo evaluation",
+      "Lymphatic imaging"
+    ],
+    "publications": [
+      "p012",
+      "p015",
+      "p014",
+      "p036",
+      "p018"
+    ],
+    "patents": [
+      "WO2023054242A1",
+      "CA3234320A1",
+      "JP2021147316A",
+      "WO2023054243A1"
+    ],
+    "note": "Targets shown in the schematic are examples from separate research studies."
+  },
+  {
+    "id": "design",
+    "number": "02",
+    "verb": "DESIGN",
+    "title": "LNP formulation & engineering",
+    "short": "Build formulations whose composition and surface support the intended delivery route.",
+    "summary": "Formulation research links lipid composition, ligand presentation and manufacturing to functional RNA delivery. A cRGD-carrier study evaluated uptake alongside gene silencing when selecting ligand density and PEG-linker length. Process research connects fluidic preparation and tangential flow filtration with particle characterization and in vivo evaluation.",
+    "steps": [
+      "RNA cargo",
+      "Lipid formulation",
+      "Functional delivery"
+    ],
+    "diagram": "design",
+    "techniques": [
+      "LNP manufacturing",
+      "Particle characterization",
+      "Functional assays",
+      "Formulation optimization"
+    ],
+    "publications": [
+      "p041",
+      "p034",
+      "p009",
+      "p008",
+      "p023"
+    ],
+    "patents": [
+      "EP4130282A1",
+      "WO2024203660A1"
+    ],
+    "editorialNote": "Research direction synthesized from the supplied CV and publications."
+  },
+  {
+    "id": "modulate",
+    "number": "03",
+    "verb": "MODULATE",
+    "title": "Immune & cell engineering",
+    "short": "Connect RNA delivery with immune responses and cellular function.",
+    "summary": "Publications cover lymphoid-tissue mRNA delivery, vaccine-related immune responses and tumor immune modulation. My academic experience also includes LNP-mediated in vivo cell engineering, including in vivo CAR-T applications.",
+    "steps": [
+      "RNA delivery",
+      "Gene expression",
+      "Cellular function"
+    ],
+    "diagram": "modulate",
+    "techniques": [
+      "mRNA delivery",
+      "T-cell and lymphoid research",
+      "Immune-response evaluation",
+      "Academic in vivo cell engineering"
+    ],
+    "publications": [
+      "p011",
+      "p017",
+      "p006",
+      "p022"
+    ],
+    "patents": [
+      "WO2023190175A1",
+      "US20260115316A1",
+      "WO2024014511A1"
+    ],
+    "note": "The cited delivery papers support the underlying research; they are not presented as demonstrations of an in vivo CAR-T platform."
+  }
+]

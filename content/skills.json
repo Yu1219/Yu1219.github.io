@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Therapeutic modalities",
+    "items": [
+      "mRNA / siRNA",
+      "Nucleic acid therapeutics",
+      "Academic in vivo cell engineering & CAR-T"
+    ]
+  },
+  {
+    "category": "Delivery & formulation",
+    "items": [
+      {
+        "label": "Targeted LNP design",
+        "publication": "p041"
+      },
+      "Ligand and antibody modification",
+      "Extrahepatic delivery",
+      {
+        "label": "Manufacturing and characterization",
+        "publication": "p034"
+      }
+    ]
+  },
+  {
+    "category": "Experimental research",
+    "items": [
+      "In vitro / in vivo evaluation",
+      "Functional assays",
+      "Omics-based toxicity analysis"
+    ]
+  },
+  {
+    "category": "Quantitative methods",
+    "items": [
+      "Design of Experiments",
+      "Bayesian optimization",
+      "Machine learning · Python · R"
+    ]
+  },
+  {
+    "category": "Coding & biological data",
+    "items": [
+      {
+        "label": "Proteomics data analysis",
+        "publication": "p014"
+      },
+      {
+        "label": "RNA-seq analysis",
+        "publication": "p002"
+      },
+      "Hands-on coding",
+      "Large biological datasets"
+    ]
+  },
+  {
+    "category": "Biological context",
+    "items": [
+      "Lymphatic and vascular endothelium",
+      "Tumor microenvironment",
+      "Immune and lymphoid delivery"
+    ]
+  },
+  {
+    "category": "Scientific collaboration",
+    "items": [
+      "Graduate-student supervision",
+      "External research partnerships",
+      "Cross-disciplinary teams in Japan & Germany"
+    ]
+  }
+]

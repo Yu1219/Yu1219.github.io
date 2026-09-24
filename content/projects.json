@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lymphatic",
+    "topic": "target",
+    "title": "Discover an unexpected route into lymphatic endothelium",
+    "subtitle": "Targeted LNPs · Lymphatic endothelium",
+    "challenge": "LNP uptake through ApoE is commonly associated with liver delivery. The challenge was to deliver siRNA to lymphatic endothelial cells.",
+    "idea": "Connect two clues: ApoE is present in lymph, and lymphatic endothelial cells express LDLR. Could a mechanism associated with liver uptake open a route into these cells?",
+    "approach": "The ApoE–LDLR hypothesis guided tests of ApoE-dependent LNP uptake. Subcutaneous delivery and a dense coating of short-chain PEG lipids then enabled evaluation in vivo.",
+    "outcome": "The study demonstrated ApoE-dependent uptake into lymphatic endothelial cells. Optimized siRNA-LNPs reduced VEGFR3 expression in vivo in preclinical experiments.",
+    "contribution": "Conceived and experimentally validated the ApoE-mediated lymphatic delivery concept with collaborators; first author of the study.",
+    "relevance": "Generate an unexpected mechanistic hypothesis, test it, and turn the finding into a strategy for extrahepatic delivery.",
+    "relatedInsight": "A complementary approach used CLIP chemistry to attach targeting antibodies to LNPs. Anti-podoplanin LNPs demonstrated lymphatic endothelial delivery in vitro and in vivo.",
+    "steps": [
+      "Hypothesize an ApoE route",
+      "Test cell uptake",
+      "Validate in vivo delivery"
+    ],
+    "evidenceFlow": [
+      {
+        "label": "HYPOTHESIS",
+        "title": "ApoE in lymph + LDLR on target cells",
+        "text": "A possible route into lymphatic endothelium, inspired by liver uptake."
+      },
+      {
+        "label": "CELL EVIDENCE",
+        "title": "ApoE-dependent LNP uptake",
+        "text": "Demonstrated in cultured lymphatic endothelial cells."
+      },
+      {
+        "label": "IN VIVO EVIDENCE",
+        "title": "VEGFR3 silencing",
+        "text": "After subcutaneous delivery of optimized siRNA-LNPs in a preclinical model."
+      }
+    ],
+    "relatedPatent": "WO2023054242A1",
+    "patentLinkLabel": "Co-inventor · lymphatic LNP application",
+    "publications": [
+      "p012",
+      "p015"
+    ],
+    "techniques": [
+      "Targeted LNPs",
+      "ApoE-mediated uptake",
+      "Antibody modification",
+      "In vivo evaluation"
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/36414194/",
+      "https://pubmed.ncbi.nlm.nih.gov/35787913/"
+    ],
+    "evidenceNote": "The user directly identified conceiving, discovering and experimentally validating the ApoE-mediated lymphatic delivery route as a personal contribution. First authorship and study-level findings are independently supported by PubMed. No sole-inventor or universal historical-priority claim is made; LDLR is described as part of the hypothesis, and PEG-lipid release is not presented as a proven mechanism.",
+    "teamValue": "Generate and test targeting hypotheses for cell populations that are difficult to reach."
+  },
+  {
+    "id": "tumor",
+    "topic": "target",
+    "title": "Change the tissue to improve particle delivery",
+    "subtitle": "Tumor endothelium · Extracellular matrix",
+    "challenge": "The tissue environment can limit how nanoparticles distribute inside a tumor, even after particles reach its blood vessels.",
+    "idea": "Test whether vascular normalization could improve delivery of 100 nm particles—even though tumor accumulation is often attributed to leaky vessels.",
+    "approach": "Tumor endothelial cell-targeted liposomal siRNA inhibited VEGFR2. The study examined vascular maturation, intratumoral particle distribution and mechanisms involving matrix remodeling.",
+    "outcome": "Particle distribution and treatment efficacy improved despite vascular maturation in the preclinical study. Inhibiting matrix metalloproteinases or depleting macrophages removed the distribution benefit.",
+    "contribution": "Developed the hypothesis that vascular normalization could improve particle delivery, and investigated the underlying mechanism; first author of the matrix-remodeling study.",
+    "contributionSource": "https://www.jstage.jst.go.jp/article/bpb/45/8/45_b22-00317/_html/-char/en",
+    "relevance": "Investigate a biological barrier as a modifiable part of the delivery system, and use mechanistic experiments to test the explanation.",
+    "steps": [
+      "Endothelial siRNA",
+      "Matrix remodeling",
+      "Improved tumor distribution"
+    ],
+    "publications": [
+      "p036"
+    ],
+    "techniques": [
+      "Tumor endothelial targeting",
+      "siRNA",
+      "Tissue distribution",
+      "Mechanistic studies"
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/27633444/"
+    ],
+    "evidenceNote": "Published preclinical findings. Individual attribution is supported by Sakurai's first-person 2022 award review (Biological and Pharmaceutical Bulletin, DOI 10.1248/bpb.b22-00317), especially section 5, which explicitly describes his hypothesis and development of the vascular-normalization strategy. First authorship of the 2016 matrix-remodeling paper is independently verified. No sole-inventor claim is made.",
+    "teamValue": "Expand the design choices for delivery by addressing tissue biology as well as particle composition."
+  },
+  {
+    "id": "imaging",
+    "topic": "target",
+    "title": "Design for the first lymph node",
+    "subtitle": "Lymphatic imaging · Design of Experiments",
+    "challenge": "A sentinel-node probe needs to accumulate in the first draining node with limited spread to downstream nodes.",
+    "idea": "Combine transport, macrophage uptake and the injection environment in the formulation strategy, then optimize the lipid composition systematically.",
+    "approach": "A five-factor, two-level design tested 16 conditions covering phospholipid, sterol, PEG-lipid content, filter size and hyaluronidase. Follow-up experiments varied phosphatidylserine content and compared sentinel-node imaging with indocyanine green.",
+    "outcome": "The studies reported improved sentinel-node detection with hyaluronidase and greater sentinel-node selectivity of the optimized particles than indocyanine green in preclinical models.",
+    "contribution": "Co-first and co-corresponding author of the DoE study; contributed to conceptualization, experiments, data curation, visualization and writing.",
+    "relevance": "Define the biological performance objective, study its determinants, and use DoE to guide formulation choices.",
+    "steps": [
+      "Transport + cell uptake",
+      "DoE of lipid composition",
+      "Sentinel-node selectivity"
+    ],
+    "publications": [
+      "p018",
+      "p021"
+    ],
+    "techniques": [
+      "Design of Experiments",
+      "Lipid composition",
+      "Lymphatic kinetics",
+      "In vivo imaging"
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/34575540/",
+      "https://pubmed.ncbi.nlm.nih.gov/32966771/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8465215/"
+    ],
+    "evidenceNote": "The full article confirms a five-factor, two-level, 16-condition design in Methods 2.6 and Table 1; a contradictory phrase in the introduction is not used. The 2.8-fold comparison is from a separate PS-content experiment (Results 3.3/Figure 3), not from the 16-condition screen. Author notes establish equal first contribution and shared correspondence; the contributions section credits Yu Sakurai with conceptualization, investigation, data curation, visualization and writing. Formal analysis is credited to Hidetaka Akita and is not assigned to Sakurai.",
+    "teamValue": "Translate a biological delivery objective into formulation criteria and informative experiments.",
+    "quantitativeEvidence": "In a follow-up mouse experiment, 30% phosphatidylserine liposomes gave 2.8-fold greater sentinel-node selectivity than PS-free liposomes. Selectivity was the sentinel-to-axillary-node accumulation ratio (n = 3 per condition; Figure 3)."
+  }
+]

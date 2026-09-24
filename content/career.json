@@ -1,0 +1,76 @@
+[
+  {
+    "date": "Jul 2025 — Present",
+    "organization": "Boehringer Ingelheim",
+    "location": "Germany",
+    "role": "Senior Scientist, Global Development CMC",
+    "summary": "Formulation and manufacturing development, with scientific input to project teams and coordination with internal and external partners.",
+    "tags": [
+      "Formulation & manufacturing",
+      "Equipment selection",
+      "Technical project support"
+    ],
+    "source": "Original CV supplied in September 2026; direct user statement on early-stage modality involvement, 16 September 2026.",
+    "responsibilities": [
+      "Lead equipment selection, technical alignment and procurement for new manufacturing technologies.",
+      "Propose formulation concepts and provide technical and manufacturing support to other internal projects.",
+      "Contribute specialist input to early-stage assessment of new therapeutic modalities."
+    ]
+  },
+  {
+    "date": "Dec 2023 — Jul 2025",
+    "organization": "Boehringer Ingelheim",
+    "location": "Japan",
+    "role": "Scientist, Pharmaceutical Research",
+    "summary": "Formulation and manufacturing-process optimization for new modalities, with analytical teams and international affiliates.",
+    "tags": [
+      "Formulation optimization",
+      "Machine learning",
+      "External collaboration"
+    ],
+    "source": "Original CV supplied in the September 2026 LinkedIn drafting conversation; project-specific details abstracted.",
+    "responsibilities": [
+      "Applied machine learning to formulation optimization.",
+      "Coordinated formulation-stability evaluation with analytical teams.",
+      "Initiated a new-modality proposal with research colleagues.",
+      "Coordinated confidentiality and material-transfer documentation (NDAs and MTAs) with relevant internal specialists for external collaboration."
+    ]
+  },
+  {
+    "date": "Apr 2021 — Nov 2023",
+    "organization": "Tohoku University",
+    "location": "Japan",
+    "role": "Assistant Professor → Lecturer",
+    "summary": "Graduate School of Pharmaceutical Sciences. Academic appointments as Assistant Professor and Lecturer. Publications from this period address lymphatic and brain-capillary endothelial delivery, mRNA formulations and immune-related delivery.",
+    "tags": [
+      "RNA delivery",
+      "Lymphatic biology"
+    ],
+    "source": "CV paragraphs 20–22; publications by date (not exclusive institutional attribution)",
+    "sourceNote": "The supplied CV and a 2022 society record disagree on the promotion month. The university employment period and both roles are retained; the exact transition month is pending user confirmation."
+  },
+  {
+    "date": "Apr 2018 — Mar 2021",
+    "organization": "Chiba University",
+    "location": "Japan",
+    "role": "Project Assistant Professor",
+    "summary": "Graduate School of Pharmaceutical Sciences. Publications from this period include lymphatic imaging, functional lipid materials and tumor-directed delivery.",
+    "tags": [
+      "Lipid materials",
+      "Lymphatic transport"
+    ],
+    "source": "CV paragraphs 23–25; publications by date (not exclusive institutional attribution)"
+  },
+  {
+    "date": "Apr 2013 — Mar 2018",
+    "organization": "Hokkaido University",
+    "location": "Japan",
+    "role": "Project Assistant Professor",
+    "summary": "Graduate School of Pharmaceutical Sciences. Publications from this period include tumor endothelial targeting, siRNA delivery and ligand-modified nanoparticles.",
+    "tags": [
+      "siRNA systems",
+      "Tumor microenvironment"
+    ],
+    "source": "CV paragraphs 26–28; publications by date (not exclusive institutional attribution)"
+  }
+]

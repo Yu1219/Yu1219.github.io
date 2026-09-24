@@ -1,0 +1,208 @@
+{
+  "name": "Yu Sakurai",
+  "degree": "Ph.D. in Pharmaceutical Sciences",
+  "position": "Senior Scientist",
+  "organization": "Boehringer Ingelheim",
+  "location": "Germany",
+  "positioning": "I develop targeted lipid nanoparticles for RNA delivery, turning unexpected biological insights into experimentally validated delivery strategies.",
+  "cv": "cv/CV.pdf",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yu-sakurai-5b679070/"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0001-6584-8350"
+    },
+    {
+      "label": "Research profile",
+      "url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201301044633773066"
+    }
+  ],
+  "publicationSourceDate": "2026-07-09",
+  "source": "Yu_Sakurai_CV.docx supplied on 2026-09-24",
+  "sourceMetrics": {
+    "papers": 53,
+    "hIndex": 32,
+    "patents": 11
+  },
+  "notes": "Recruiter positioning updated at the user request on 24 September 2026. The user identifies targeted LNP specialization and unconventional problem solving as defining strengths. Publication counts use the supplied 54-original / 9-review list. Original CV metrics are retained only as historical source metadata. The site download uses the updated PDF.",
+  "publicationsVerifiedOn": "2026-09-24",
+  "specialism": "Targeted lipid nanoparticles",
+  "approach": "Unconventional thinking, made testable.",
+  "overview": "Targeted LNP and RNA-delivery expertise, with pharmaceutical experience in ophthalmic new-modality development, excipient evaluation and external technology due diligence.",
+  "roleFit": [
+    "Targeted LNP formulation",
+    "Extrahepatic RNA delivery",
+    "Formulation research"
+  ],
+  "strengths": [
+    {
+      "title": "Specialize in targeted LNPs",
+      "text": "Develop cell-specific LNPs by connecting ligand modification, lipid composition and administration route with the biology that controls delivery."
+    },
+    {
+      "title": "Discover and validate unexpected delivery routes",
+      "text": "I connect ideas across disciplines to uncover how LNPs can enter specific cells, then test those ideas experimentally. This approach has led to ApoE-mediated lymphatic delivery and cell-specific LNP inventions."
+    },
+    {
+      "title": "Code to understand complex biology",
+      "text": "I write code for proteomics and RNA-seq analyses. This gives me practical experience interpreting large biological datasets alongside formulation and functional readouts."
+    },
+    {
+      "title": "Build methods and develop people",
+      "text": "Academic experience establishing LNP manufacturing and evaluation methods, applying DoE, and supervising graduate and international students. Pharmaceutical experience includes multidisciplinary teams and external partnerships."
+    }
+  ],
+  "workingApproach": "Three academic studies connect a delivery problem, a different hypothesis and experimental evidence. My role is stated alongside each result.",
+  "cvRevisionDate": "2026-09-25",
+  "email": "serendipity100111@gmail.com",
+  "userConfirmedClaims": {
+    "date": "2026-09-24",
+    "claims": [
+      "Specialization in targeted LNPs",
+      "Unconventional ideas have solved research problems",
+      "Integration across disciplines led to cell-specific LNPs and patents",
+      "Personally codes proteomics and RNA-seq analyses",
+      "DoE reported in multiple papers",
+      "Conceives, discovers and experimentally validates unexpected delivery routes, exemplified by ApoE-mediated uptake into lymphatic endothelial cells",
+      "Ophthalmic new-modality development and new excipient evaluation",
+      "Introduced a new excipient into a project following internal legal and patent coordination and technical discussions with multiple external partners",
+      "Contributed specialist expertise to external technology due diligence and participated in on-site visits as an evaluation-team member",
+      "Invited to contribute specialist input to early-stage new-modality discussions",
+      "Led equipment selection, technical alignment and procurement for new manufacturing technologies",
+      "Provided technical and manufacturing support to other internal projects",
+      "Applied machine learning to formulation optimization",
+      "Initiated a new-modality proposal with research colleagues",
+      "Coordinated NDA and MTA documentation with relevant internal disciplines"
+    ],
+    "source": "Direct user statements in the current conversation"
+  },
+  "valuePillars": [
+    {
+      "label": "DESIGN",
+      "title": "Solve cell-targeting problems.",
+      "text": "Connect biological clues to a targeting hypothesis, then test uptake and functional delivery.",
+      "evidence": "ApoE-mediated lymphatic delivery",
+      "anchor": "case-lymphatic"
+    },
+    {
+      "label": "DEVELOP",
+      "title": "Bring new materials into development.",
+      "text": "Connect excipient evaluation with internal coordination and technical discussions with external partners.",
+      "evidence": "New excipient introduced into a project",
+      "anchor": "industry-excipients"
+    },
+    {
+      "label": "EVALUATE",
+      "title": "Assess external technologies.",
+      "text": "Apply scientific expertise to technical due diligence, including on-site evaluation.",
+      "evidence": "External technology assessment",
+      "anchor": "industry-dd"
+    }
+  ],
+  "researchRecord": [
+    {
+      "label": "PRINCIPAL INVESTIGATOR · 2020–2022",
+      "title": "Funded research on antibody-targeted LNPs",
+      "text": "Led a JSPS KAKENHI project on ligand modification through click chemistry and systematic evaluation. The completed project reported antibody-directed siRNA delivery to lymphatic endothelial cells.",
+      "linkLabel": "KAKEN project 20K20195",
+      "url": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K20195/",
+      "id": "research-leadership"
+    },
+    {
+      "label": "RESEARCH RECOGNITION · 2022",
+      "title": "PSJ Award for Young Scientists",
+      "text": "Pharmaceutical Society of Japan recognition for research on functionalized siRNA-loaded lipid nanoparticles for cancer treatment.",
+      "linkLabel": "Official award record (Japanese)",
+      "url": "https://www.pharm.or.jp/nenkai/142highlight.pdf#page=6"
+    }
+  ],
+  "identitySources": [
+    "https://pubmed.ncbi.nlm.nih.gov/32091909/",
+    "https://pubmed.ncbi.nlm.nih.gov/28789523/"
+  ],
+  "methodExamples": [
+    {
+      "label": "PUBLISHED DoE EXAMPLE",
+      "title": "Five factors.\nSixteen experimental conditions.",
+      "text": "A two-level design varied five formulation and administration factors. The objective was sentinel-node selectivity, connecting formulation choices to a defined biological outcome.",
+      "contribution": "Co-first and co-corresponding author; credited for conceptualization, experiments, data curation, visualization and writing.",
+      "publication": "p018"
+    },
+    {
+      "label": "PUBLISHED PROTEOMICS EXAMPLE",
+      "title": "Read the biological response.",
+      "text": "SWATH-MS quantified 1,899 proteins to compare mRNA-LNPs with a commercial transfection reagent in cultured human brain endothelial cells. The LNP formulation caused fewer protein-expression changes under the study conditions.",
+      "contribution": "Co-first and co-corresponding author; credited for software, methodology, visualization, supervision and project administration.",
+      "publication": "p014"
+    }
+  ],
+  "profileUpdatedOn": "2026-09-25",
+  "contactScope": "Interested in Principal Scientist and Senior Principal Scientist opportunities in targeted LNPs, RNA delivery and formulation development, with responsibility for scientific strategy and technical evaluation.",
+  "searchTopics": [
+    "Targeted lipid nanoparticles (LNPs)",
+    "Extrahepatic RNA delivery",
+    "mRNA and siRNA delivery",
+    "Ophthalmic new-modality development",
+    "New excipient evaluation",
+    "External technology due diligence",
+    "Design of Experiments (DoE)",
+    "Proteomics and RNA-seq analysis",
+    "Manufacturing technology and equipment selection",
+    "Scientific mentoring"
+  ],
+  "seo": {
+    "title": "Yu Sakurai | Targeted LNP & Ophthalmic Drug Development",
+    "description": "Yu Sakurai, PhD: targeted LNP and RNA delivery, ophthalmic development, new excipient introduction and external technology due diligence."
+  },
+  "industryContributions": [
+    {
+      "id": "excipients",
+      "label": "OPHTHALMIC DEVELOPMENT",
+      "title": "From excipient evaluation to project adoption.",
+      "contribution": "Worked on new-modality development and new excipient evaluation in ophthalmology. Coordinated with internal legal and patent teams and held technical discussions with multiple external partners.",
+      "resultLabel": "PROJECT OUTCOME",
+      "result": "Introduced a new excipient into an ophthalmic development project."
+    },
+    {
+      "id": "manufacturing",
+      "label": "MANUFACTURING CAPABILITIES",
+      "title": "Lead equipment selection and procurement.",
+      "contribution": "Led equipment selection, technical alignment and procurement for new manufacturing technologies.",
+      "resultLabel": "CROSS-PROJECT CONTRIBUTION",
+      "result": "Provided technical and manufacturing support to other internal projects."
+    },
+    {
+      "id": "dd",
+      "label": "EXTERNAL TECHNOLOGY ASSESSMENT",
+      "title": "Modality assessment & technical due diligence.",
+      "contribution": "Contributed specialist scientific input to early-stage discussions on new therapeutic modalities and technical due diligence on external technologies.",
+      "resultLabel": "MY ROLE",
+      "result": "Participated in on-site visits as a member of the evaluation team."
+    }
+  ],
+  "industryEvidence": {
+    "confirmedOn": "2026-09-25",
+    "source": "Direct user statement in this conversation",
+    "scope": "Contributions across pharmaceutical R&D roles; not assigned to a country or exact date. No final investment authority, regulatory approval, clinical outcome or sole project leadership is claimed.",
+    "additionalSources": "Original CV attached to a September 2026 LinkedIn drafting conversation; direct user statements on 16 September 2026. Summaries or suggestions authored by an assistant are not treated as independent evidence."
+  },
+  "academicResponsibilities": [
+    {
+      "title": "Build research methods",
+      "text": "Established LNP manufacturing, characterization and functional-evaluation methods in academia.",
+      "publication": "p034"
+    },
+    {
+      "title": "Connect experiments and computation",
+      "text": "Applied DoE to formulation optimization and personally coded proteomics and RNA-seq analyses.",
+      "publication": "p014"
+    },
+    {
+      "title": "Develop researchers",
+      "text": "Supervised graduate and international students and contributed to research team development."
+    }
+  ]
+}
