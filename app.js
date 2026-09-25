@@ -141,7 +141,7 @@ function fitNavigation(){
 async function init(){
  try{
  const names=['profile','themes','projects','publications','patents','career','skills'];
- const vals=await Promise.all(names.map(async n=>{const r=await fetch(`content/${n}.json`);if(!r.ok)throw Error(n);return r.json()}));
+ const vals=await Promise.all(names.map(async n=>{const r=await fetch(`content/${n}.json?v=20260925-patents`);if(!r.ok)throw Error(n);return r.json()}));
  data=Object.fromEntries(names.map((n,i)=>[n,vals[i]]));
  $('.focus-strip a[href="#publications"] strong').textContent=`${data.publications.filter(p=>p.type==='Original paper').length} original papers · ${data.publications.filter(p=>p.type==='Review').length} reviews`;
  $('.hero-description').textContent=data.profile.positioning;
