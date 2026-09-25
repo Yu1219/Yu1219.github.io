@@ -26,6 +26,6 @@ Keep the rendered HTML and JSON content consistent when updating the profile. Pu
 
 The research cases include three original graphical abstracts with short explanations, source-paper links and full citations. Images open at full resolution and retain their original proportions. Figure sources, reuse terms and file hashes are recorded in [RESEARCH_FIGURE_SOURCES.md](RESEARCH_FIGURE_SOURCES.md).
 
-Edit figure metadata in `content/projects.json`. After updating research content or the renderer in `app.js`, run `node scripts/render-research.cjs` to refresh the matching static HTML. This script needs only Node.js; no package installation is required. It updates only the research section, preserving the profile and complete publication fallback.
+Edit figure metadata in `content/projects.json` and patent titles and publication numbers in `content/patents.json`. Patent entries show only the published title and publication number; inventor and applicant names are excluded from the published data. After updating research or patent content or the renderer in `app.js`, run `node scripts/render-research.cjs` to refresh the matching static HTML. This script needs only Node.js; no package installation is required. It updates only the research and patent sections, preserving the profile and complete publication fallback.
 
 Prepared from the portfolio revision published on 25 September 2026. Private working notes and original source documents are not included.

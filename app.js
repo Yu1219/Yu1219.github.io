@@ -92,7 +92,7 @@ function updatePubs(){
  $('.publication-list').innerHTML=records.map(publicationCard).join('')||'<p class="empty-state">No publications in this selection. Choose another topic or view all publications.</p>';
 }
 function renderPatents(){
- $('#patents').innerHTML=heading('08','INTELLECTUAL PROPERTY','Ideas that lead<br>to inventions.','Selected public patent records spanning lipid chemistry, formulation and tissue-selective delivery.')+`<div class="patents-grid">${data.patents.map(p=>`<details class="patent" id="patent-${p.id}"><summary><span class="patent-id">${p.id} <span>${p.year}</span></span><h3>${escape(p.shortTitle)}</h3><span class="patent-type">${escape(p.recordType)}</span><span class="patent-expand">View record +</span></summary><div class="patent-details"><h4>Publication title</h4><p>${escape(p.title)}</p><h4>Inventors</h4><p>${p.inventors.map(person).join(' · ')}</p><h4>Applicants listed in the record</h4><p>${p.applicants.map(escape).join(' · ')}</p><p class="detail-label">Published ${escape(p.publicationDate)}</p>${link(p.url,'Open patent record','text-link')}</div></details>`).join('')}</div><p class="source-note">${data.patents.length} selected publication records verified on 24 September 2026. Publication types are shown; this is not a statement of current legal status or a complete patent-family count.</p>`;
+ $('#patents').innerHTML=heading('08','INTELLECTUAL PROPERTY','Ideas that lead<br>to inventions.','Selected public patent records spanning lipid chemistry, formulation and tissue-selective delivery.')+`<div class="patents-grid">${data.patents.map(p=>`<article class="patent" id="patent-${escape(p.id)}"><p class="patent-id">${link(p.url,escape(p.id))}</p><h3>${escape(p.title)}</h3></article>`).join('')}</div>`;
 }
 function renderCareer(){
  $('#career').innerHTML=heading('04','EXPERIENCE','From academic research<br>to pharmaceutical R&D.','Roles and responsibilities across Japan and Germany.')+`<div class="career-layout"><div class="timeline">${data.career.map((s,i)=>`<details ${i===0?'open':''}><summary><span class="career-date">${escape(s.date)}</span><div><p>${escape(s.location)}</p><h3>${escape(s.organization)}</h3><span>${escape(s.role)}</span></div><span class="expand" aria-hidden="true">+</span></summary><div class="career-detail"><p>${escape(s.summary)}</p>${s.responsibilities?`<ul class="career-responsibilities">${s.responsibilities.map(r=>`<li>${escape(r)}</li>`).join('')}</ul>`:''}<div class="tags">${s.tags.map(t=>`<span>${escape(t)}</span>`).join('')}</div></div></details>`).join('')}</div><div class="research-record">${data.profile.researchRecord.map(r=>`<article${r.id?` id="${escape(r.id)}"`:""}><p class="detail-label">${escape(r.label)}</p><h3>${escape(r.title)}</h3><p>${escape(r.text)}</p>${link(r.url,escape(r.linkLabel),'text-link')}</article>`).join('')}</div></div><div class="academic-responsibilities"><h3>Academic methods<br>& mentoring</h3><ul>${data.profile.academicResponsibilities.map(r=>`<li><strong>${escape(r.title)}</strong><p>${escape(r.text)}${r.publication?` <a class="skill-evidence" href="${escape(data.publications.find(p=>p.id===r.publication).pubmedUrl)}" data-paper="${escape(r.publication)}">Published example <span aria-hidden="true">↘</span></a>`:''}</p></li>`).join('')}</ul></div><p class="education">Ph.D. in Pharmaceutical Sciences · Hokkaido University<br>Licensed Pharmacist · March 2008</p>`;
@@ -125,7 +125,6 @@ function restoreAnchor(){
  }
  if(id.startsWith('pub-')){showPaper(id.slice(4));return;}
  const el=document.getElementById(id);if(!el)return;
- if(id.startsWith('patent-'))el.open=true;
  requestAnimationFrame(()=>el.scrollIntoView({block:'start'}));
 }
 function fitNavigation(){
@@ -153,7 +152,6 @@ async function init(){
  const view=e.target.closest('[data-mode]');if(view){mode=view.dataset.mode;filter='all';updatePubs()}
  const f=e.target.closest('[data-filter]');if(f){filter=f.dataset.filter;mode='all';updatePubs()}
  const p=e.target.closest('[data-paper]');if(p&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0){e.preventDefault();history.pushState(null,'','#pub-'+p.dataset.paper);showPaper(p.dataset.paper,true)}
- const pat=e.target.closest('[data-patent]');if(pat){const el=$('#patent-'+pat.dataset.patent);el.open=true}
  });
  document.documentElement.dataset.ready='true';
  fitNavigation();

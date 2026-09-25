@@ -3,249 +3,70 @@
     "id": "WO2023054242A1",
     "title": "Lipid nanoparticles used to transport nucleic acids into lymphatic endothelium cells",
     "shortTitle": "Lymphatic endothelial delivery",
-    "year": 2023,
-    "publicationDate": "2023-04-06",
-    "inventors": [
-      "耕太 丹下",
-      "宏樹 吉岡",
-      "悠太 中井",
-      "英万 秋田",
-      "遊 櫻井",
-      "浩揮 田中",
-      "啓斗 吉川"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "target",
-    "url": "https://patents.google.com/patent/WO2023054242A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/WO2023054242A1/en"
   },
   {
     "id": "WO2023054243A1",
     "title": "Lipid nanoparticles having cell directivity",
     "shortTitle": "Cell-directed lipid nanoparticles",
-    "year": 2023,
-    "publicationDate": "2023-04-06",
-    "inventors": [
-      "耕太 丹下",
-      "宏樹 吉岡",
-      "悠太 中井",
-      "英万 秋田",
-      "遊 櫻井",
-      "浩揮 田中",
-      "光希 岩崎"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "target",
-    "url": "https://patents.google.com/patent/WO2023054243A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/WO2023054243A1/en"
   },
   {
     "id": "CA3234320A1",
     "title": "Lipid nanoparticle used for delivering nucleic acid to brain tissue",
     "shortTitle": "Nucleic acid delivery to brain tissue",
-    "year": 2023,
-    "publicationDate": "2023-04-06",
-    "inventors": [
-      "Kota TANGE",
-      "Hiroki Yoshioka",
-      "Yuta Nakai",
-      "Hidetaka Akita",
-      "Yu SAKURAI",
-      "Hiroki Tanaka",
-      "Shoya FUJITA"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "target",
-    "url": "https://patents.google.com/patent/CA3234320A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/CA3234320A1/en"
   },
   {
     "id": "WO2023190175A1",
     "title": "Lipid nanoparticles for delivering nucleic acid to peripheral blood mononuclear cells, and method for delivering nucleic acid to peripheral blood mononuclear cells using same",
     "shortTitle": "Delivery to peripheral blood mononuclear cells",
-    "year": 2023,
-    "publicationDate": "2023-10-05",
-    "inventors": [
-      "悠太 中井",
-      "耕太 丹下",
-      "英万 秋田",
-      "浩揮 田中",
-      "遊 櫻井",
-      "亮 三山"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "modulate",
-    "url": "https://patents.google.com/patent/WO2023190175A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/WO2023190175A1/en"
   },
   {
     "id": "EP4130282A1",
     "title": "Novel cationic lipid having cystine skeleton",
     "shortTitle": "Cystine-based cationic lipids",
-    "year": 2023,
-    "publicationDate": "2023-02-08",
-    "inventors": [
-      "Shinya TAMAGAWA",
-      "Kota TANGE",
-      "Yuta Nakai",
-      "Masamichi Tamada",
-      "Hidetaka Akita",
-      "Hiroki Tanaka",
-      "Yu SAKURAI"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "design",
-    "url": "https://patents.google.com/patent/EP4130282A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/EP4130282A1/en"
   },
   {
     "id": "JP2021147316A",
     "title": "Sentinel lymph node imaging agent",
     "shortTitle": "Sentinel lymph-node imaging",
-    "year": 2021,
-    "publicationDate": "2021-09-27",
-    "inventors": [
-      "英万 秋田",
-      "Hidetaka Akita",
-      "遊 櫻井",
-      "Yu Sakurai",
-      "浩揮 田中",
-      "Hiroki Tanaka",
-      "昌樹 五味",
-      "Masaki Gomi"
-    ],
-    "applicants": [
-      "Chiba University NUC"
-    ],
     "topic": "target",
-    "url": "https://patents.google.com/patent/JP2021147316A/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/JP2021147316A/en"
   },
   {
     "id": "JP7197106B2",
     "title": "lipid nanoparticles",
     "shortTitle": "Hyaluronic-acid-containing lipid nanoparticles",
-    "year": 2022,
-    "publicationDate": "2022-12-27",
-    "inventors": [
-      "秀吉 原島",
-      "遊 櫻井",
-      "泰浩 樋田",
-      "京子 樋田",
-      "奈湖 間石",
-      "月 加藤"
-    ],
-    "applicants": [
-      "Hokkaido University NUC"
-    ],
     "topic": "target",
-    "url": "https://patents.google.com/patent/JP7197106B2/en",
-    "recordType": "Granted patent publication",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/JP7197106B2/en"
   },
   {
     "id": "WO2024014511A1",
     "title": "Lipid nanoparticle and method for producing same, nucleic acid-encapsulated lipid nanoparticle and method for producing same, and method for inducing acquired immunity in living body by using nucleic acid-encapsulated lipid nanoparticle",
     "shortTitle": "LNP formulations for acquired immunity",
-    "year": 2024,
-    "publicationDate": "2024-01-18",
-    "inventors": [
-      "悠太 中井",
-      "耕太 丹下",
-      "英万 秋田",
-      "浩揮 田中",
-      "遊 櫻井",
-      "ジェシカ アニンディタ",
-      "遼太朗 大山"
-    ],
-    "applicants": [
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "modulate",
-    "url": "https://patents.google.com/patent/WO2024014511A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/WO2024014511A1/en"
   },
   {
     "id": "US20260115316A1",
     "title": "Lipid nanoparticles for delivering nucleic acid to splenic tissue, and method for delivering nucleic acid to splenic tissue using same",
     "shortTitle": "Nucleic acid delivery to splenic tissue",
-    "year": 2026,
-    "publicationDate": "2026-04-30",
-    "inventors": [
-      "Yuta Nakai",
-      "Kota TANGE",
-      "Yu SAKURAI",
-      "Hidetaka Akita",
-      "Hiroki Tanaka",
-      "Mizuho HORI",
-      "Masaki GOMI"
-    ],
-    "applicants": [
-      "Tohoku University NUC",
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "modulate",
-    "url": "https://patents.google.com/patent/US20260115316A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/US20260115316A1/en"
   },
   {
     "id": "WO2024203660A1",
     "title": "Method for producing nucleic acid-encapsulated lipid nanoparticles",
     "shortTitle": "Nucleic-acid LNP manufacturing",
-    "year": 2024,
-    "publicationDate": "2024-10-03",
-    "inventors": [
-      "英万 秋田",
-      "遊 櫻井",
-      "浩揮 田中",
-      "さくら 種市",
-      "香澄 伊藤",
-      "耕太 丹下",
-      "悠太 中井"
-    ],
-    "applicants": [
-      "Tohoku University NUC",
-      "Chiba University NUC",
-      "NOF Corp"
-    ],
     "topic": "design",
-    "url": "https://patents.google.com/patent/WO2024203660A1/en",
-    "recordType": "Published patent application",
-    "verifiedOn": "2026-09-24",
-    "note": "Publication type only; current legal status and territorial coverage are not asserted."
+    "url": "https://patents.google.com/patent/WO2024203660A1/en"
   }
 ]
