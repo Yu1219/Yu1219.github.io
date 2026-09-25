@@ -22,4 +22,10 @@ For a local preview, run `python -m http.server 8000` in this folder and open `h
 
 Keep the rendered HTML and JSON content consistent when updating the profile. Publication identifiers, dates and attribution should remain source-based.
 
+## Published research figures
+
+The research cases include three original graphical abstracts with short explanations, source-paper links and full citations. Images open at full resolution and retain their original proportions. Figure sources, reuse terms and file hashes are recorded in [RESEARCH_FIGURE_SOURCES.md](RESEARCH_FIGURE_SOURCES.md).
+
+Edit figure metadata in `content/projects.json`. After updating research content or the renderer in `app.js`, run `node scripts/render-research.cjs` to refresh the matching static HTML. This script needs only Node.js; no package installation is required. It updates only the research section, preserving the profile and complete publication fallback.
+
 Prepared from the portfolio revision published on 25 September 2026. Private working notes and original source documents are not included.

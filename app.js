@@ -39,10 +39,23 @@ function renderIndustry(){
 function directEvidence(ids){
  return ids.map(id=>{const p=data.publications.find(p=>p.id===id);if(!p)return '';const journal=p.journal.split('.')[0];return link(p.pubmedUrl||p.publisherUrl,escape(journal)+' · '+escape(p.year)+' · '+(p.pubmedUrl?'PubMed':'Publisher'),'direct-evidence')}).join('');
 }
+function researchFigure(p){
+ const f=p.researchFigure;
+ if(!f)return '';
+ const paper=data.publications.find(record=>record.id===f.publication);
+ if(!paper)return '';
+ return `<figure class="research-figure" aria-labelledby="figure-caption-${escape(p.id)}">
+ <div class="figure-heading"><span class="detail-label">PUBLISHED GRAPHICAL ABSTRACT · ${escape(paper.year)}</span><a href="${escape(f.src)}" target="_blank" rel="noopener" aria-label="View full-size graphical abstract: ${escape(p.title)}">Enlarge figure <span aria-hidden="true">↗</span></a></div>
+ <a class="figure-image" href="${escape(f.src)}" target="_blank" rel="noopener" aria-label="Open original graphical abstract: ${escape(p.title)}"><img src="${escape(f.src)}" width="${f.width}" height="${f.height}" alt="${escape(f.alt)}" loading="lazy" decoding="async"></a>
+ <figcaption id="figure-caption-${escape(p.id)}"><p class="figure-takeaway">${escape(f.takeaway)}</p><p class="figure-context">${escape(f.context)}</p>
+ <p class="figure-credit">${link('https://doi.org/'+paper.doi,escape(f.credit),'figure-source-link')}</p>
+ <details class="figure-citation"><summary>Full citation & figure reuse</summary><p>${person(paper.authors)}. <cite>${escape(paper.title)}</cite>. ${escape(paper.journal.replace(/\.$/,''))}. ${link('https://doi.org/'+paper.doi,'DOI: '+escape(paper.doi))}</p><p>${escape(f.copyright)} Original graphical abstract, reproduced unchanged. ${link(f.rightsUrl,escape(f.rightsLabel))}</p>${link(f.sourceUrl,'Publisher’s original image')}</details></figcaption></figure>`;
+}
 function renderProjects(){
  $('#details-root').innerHTML=`<section class="section wrap" id="projects">${heading('03','SELECTED RESEARCH','Unconventional ideas.<br>Experimental evidence.',escape(data.profile.workingApproach))}
  <div class="projects">${data.projects.map((p,i)=>`<article class="case-study" id="case-${p.id}">
  <div class="case-heading"><span class="project-index">0${i+1}</span><div><p class="detail-label">${escape(p.subtitle)}</p><h3>${escape(p.title)}</h3></div></div>
+ ${researchFigure(p)}
  ${p.evidenceFlow?`<ol class="evidence-flow" aria-label="From a targeting hypothesis to experimental evidence">${p.evidenceFlow.map(s=>`<li><span class="detail-label">${escape(s.label)}</span><h4>${escape(s.title)}</h4><p>${escape(s.text)}</p></li>`).join('')}</ol>`:`<div class="case-brief"><div><h4>The different idea</h4><p>${escape(p.idea)}</p></div><div><h4>Experimental result</h4><p>${escape(p.outcome)}</p></div></div>`}
  <p class="case-role"><span>MY CONTRIBUTION</span>${escape(p.contribution)}</p>
  <p class="case-value"><span>VALUE FOR R&D</span>${escape(p.teamValue)}</p>

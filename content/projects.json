@@ -50,7 +50,22 @@
       "https://pubmed.ncbi.nlm.nih.gov/35787913/"
     ],
     "evidenceNote": "The user directly identified conceiving, discovering and experimentally validating the ApoE-mediated lymphatic delivery route as a personal contribution. First authorship and study-level findings are independently supported by PubMed. No sole-inventor or universal historical-priority claim is made; LDLR is described as part of the hypothesis, and PEG-lipid release is not presented as a proven mechanism.",
-    "teamValue": "Generate and test targeting hypotheses for cell populations that are difficult to reach."
+    "teamValue": "Generate and test targeting hypotheses for cell populations that are difficult to reach.",
+    "researchFigure": {
+      "publication": "p012",
+      "src": "assets/research/apoe-lymphatic-graphical-abstract.jpg",
+      "width": 2213,
+      "height": 651,
+      "alt": "Published graphical abstract: PEG-rich siRNA lipid nanoparticles move from the subcutis into lymph, followed by proposed PEG-lipid detachment, ApoE association and uptake by lymphatic endothelial cells. A bar chart compares uptake at three PEG-DMG levels.",
+      "takeaway": "Follow the route from the injection site into lymph: particle design enables transport, then ApoE supports uptake by lymphatic endothelial cells.",
+      "context": "The graphic summarizes the proposed route. ApoE-dependent uptake was tested experimentally; PEG-lipid detachment remains a proposed step.",
+      "credit": "Source: Sakurai et al. · Journal of Controlled Release · 2023",
+      "copyright": "© 2022 Elsevier B.V.",
+      "rightsUrl": "https://www.elsevier.com/about/policies-and-standards/copyright",
+      "rightsLabel": "Elsevier author reuse rights",
+      "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0168365922007817-ga1_lrg.jpg",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0168365922007817"
+    }
   },
   {
     "id": "tumor",
@@ -70,7 +85,8 @@
       "Improved tumor distribution"
     ],
     "publications": [
-      "p036"
+      "p036",
+      "p032"
     ],
     "techniques": [
       "Tumor endothelial targeting",
@@ -79,10 +95,26 @@
       "Mechanistic studies"
     ],
     "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/27633444/"
+      "https://pubmed.ncbi.nlm.nih.gov/27633444/",
+      "https://pubmed.ncbi.nlm.nih.gov/28192155/"
     ],
     "evidenceNote": "Published preclinical findings. Individual attribution is supported by Sakurai's first-person 2022 award review (Biological and Pharmaceutical Bulletin, DOI 10.1248/bpb.b22-00317), especially section 5, which explicitly describes his hypothesis and development of the vascular-normalization strategy. First authorship of the 2016 matrix-remodeling paper is independently verified. No sole-inventor claim is made.",
-    "teamValue": "Expand the design choices for delivery by addressing tissue biology as well as particle composition."
+    "teamValue": "Expand the design choices for delivery by addressing tissue biology as well as particle composition.",
+    "researchFigure": {
+      "publication": "p032",
+      "src": "assets/research/tumor-distribution-graphical-abstract.jpg",
+      "width": 1770,
+      "height": 886,
+      "alt": "Published graphical abstract: cyclic RGD-modified siRNA particles targeting VEGFR2 are shown beside tumor sections before and after treatment. The tumor-vessel-type renal carcinoma and stroma-vessel-type colorectal models show different particle distribution responses.",
+      "takeaway": "Compare the upper and lower panels: VEGFR2 silencing improved particle distribution in tumor-vessel-type models; the stroma-vessel-type model did not show the same benefit.",
+      "context": "Figure from the 2017 follow-up study. The matrix-remodeling result and my contribution described below refer to the 2016 study. Both are preclinical.",
+      "credit": "Source: Yamamoto, Kato, Sakurai et al. · Journal of Controlled Release · 2017",
+      "copyright": "© 2017 Elsevier B.V.",
+      "rightsUrl": "https://www.elsevier.com/about/policies-and-standards/copyright",
+      "rightsLabel": "Elsevier author reuse rights",
+      "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0168365917300615-fx1_lrg.jpg",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0168365917300615"
+    }
   },
   {
     "id": "imaging",
@@ -117,6 +149,21 @@
     ],
     "evidenceNote": "The full article confirms a five-factor, two-level, 16-condition design in Methods 2.6 and Table 1; a contradictory phrase in the introduction is not used. The 2.8-fold comparison is from a separate PS-content experiment (Results 3.3/Figure 3), not from the 16-condition screen. Author notes establish equal first contribution and shared correspondence; the contributions section credits Yu Sakurai with conceptualization, investigation, data curation, visualization and writing. Formal analysis is credited to Hidetaka Akita and is not assigned to Sakurai.",
     "teamValue": "Translate a biological delivery objective into formulation criteria and informative experiments.",
-    "quantitativeEvidence": "In a follow-up mouse experiment, 30% phosphatidylserine liposomes gave 2.8-fold greater sentinel-node selectivity than PS-free liposomes. Selectivity was the sentinel-to-axillary-node accumulation ratio (n = 3 per condition; Figure 3)."
+    "quantitativeEvidence": "In a follow-up mouse experiment, 30% phosphatidylserine liposomes gave 2.8-fold greater sentinel-node selectivity than PS-free liposomes. Selectivity was the sentinel-to-axillary-node accumulation ratio (n = 3 per condition; Figure 3).",
+    "researchFigure": {
+      "publication": "p021",
+      "src": "assets/research/sentinel-node-graphical-abstract.jpg",
+      "width": 996,
+      "height": 996,
+      "alt": "Published graphical abstract: medium-sized negatively charged liposomes are retained in the first draining lymph node through macrophage uptake, with less signal in the next node. A lower panel illustrates sentinel-node mapping from a tumor.",
+      "takeaway": "Keep the signal in the first draining lymph node: liposome size and negative surface charge favor macrophage uptake and local retention.",
+      "context": "Figure from the mechanistic imaging study in Molecular Therapy (2021). The DoE optimization described below was reported separately in Pharmaceutics (2021).",
+      "credit": "Source: Gomi, Sakurai et al. · Molecular Therapy · 2021",
+      "copyright": "© 2020 The Authors.",
+      "rightsUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsLabel": "CC BY 4.0",
+      "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S1525001620304718-fx1_lrg.jpg",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/pii/S1525001620304718"
+    }
   }
 ]
