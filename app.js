@@ -28,6 +28,14 @@ function renderThemes(){
  if(!$('#theme-detail'))$('.quant-strip').insertAdjacentHTML('afterend','<div id="theme-detail" class="theme-detail" aria-live="polite"></div>');
  selectTheme('target');
 }
+function renderHero(){
+ const p=data.profile,h=p.hero;
+ $('#top').innerHTML=`<div class="hero-copy"><p class="eyebrow">${escape(p.name.toUpperCase())}, Ph.D.</p><p class="hero-role">${escape(p.position)} · ${escape(p.organization)} · ${escape(p.location)}</p>
+ <h1>${escape(h.headline)}<br><span>${escape(h.statement).replace(/\n/g,'<br> ')}</span></h1>
+ <p class="hero-description">${escape(p.positioning)}</p><div class="hero-actions"><a class="button primary" href="#industry">Explore selected work <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">Discuss a scientific role <span aria-hidden="true">↗</span></a></div></div>
+ <div class="hero-art" aria-hidden="true"><div class="art-caption">LIPID CARRIER / ARTISTIC VISUALIZATION</div></div>
+ <aside class="hero-proof"><p class="detail-label">HOW I SOLVE PROBLEMS</p><h2>${escape(h.approachTitle)}</h2><p>${escape(h.approachText)}</p><a href="#projects">See the thinking in practice <span aria-hidden="true">↘</span></a></aside>`;
+}
 function renderOverview(){
  $('#overview').innerHTML=heading('01','WHAT I BRING','Targeting strategy.<br>Development decisions.',escape(data.profile.overview)+' <a class="overview-map-link" href="#research">View the research map <span aria-hidden="true">↘</span></a>')+`
  <div class="value-grid">${data.profile.valuePillars.map((s,i)=>`<article><p class="detail-label">0${i+1} / ${escape(s.label)}</p><h3>${escape(s.title)}</h3><p>${escape(s.text)}</p><a href="#${escape(s.anchor)}">${escape(s.evidence)} <span aria-hidden="true">↘</span></a></article>`).join('')}</div>
@@ -52,18 +60,18 @@ function researchFigure(p){
  <details class="figure-citation"><summary>Full citation & figure reuse</summary><p>${person(paper.authors)}. <cite>${escape(paper.title)}</cite>. ${escape(paper.journal.replace(/\.$/,''))}. ${link('https://doi.org/'+paper.doi,'DOI: '+escape(paper.doi))}</p><p>${escape(f.copyright)} Original graphical abstract, reproduced unchanged. ${link(f.rightsUrl,escape(f.rightsLabel))}</p>${link(f.sourceUrl,'Publisher’s original image')}</details></figcaption></figure>`;
 }
 function renderProjects(){
- $('#details-root').innerHTML=`<section class="section wrap" id="projects">${heading('03','SELECTED RESEARCH','Unconventional ideas.<br>Experimental evidence.',escape(data.profile.workingApproach))}
- <div class="projects">${data.projects.map((p,i)=>`<article class="case-study" id="case-${p.id}">
- <div class="case-heading"><span class="project-index">0${i+1}</span><div><p class="detail-label">${escape(p.subtitle)}</p><h3>${escape(p.title)}</h3></div></div>
- ${researchFigure(p)}
- ${p.evidenceFlow?`<ol class="evidence-flow" aria-label="From a targeting hypothesis to experimental evidence">${p.evidenceFlow.map(s=>`<li><span class="detail-label">${escape(s.label)}</span><h4>${escape(s.title)}</h4><p>${escape(s.text)}</p></li>`).join('')}</ol>`:`<div class="case-brief"><div><h4>The different idea</h4><p>${escape(p.idea)}</p></div><div><h4>Experimental result</h4><p>${escape(p.outcome)}</p></div></div>`}
+ const hooks=data.projects.filter(p=>p.hook);
+ $('#details-root').innerHTML=`<section class="section wrap" id="projects">${heading('03','SCIENTIFIC THINKING IN PRACTICE','A different question.<br>A testable hypothesis.',escape(data.profile.workingApproach))}
+ <div class="thinking-grid">${hooks.map((p,i)=>`<article class="thinking-card"><p class="detail-label">0${i+1} / ${escape(p.hook.label)}</p><h3>${escape(p.hook.question)}</h3><p class="hook-evidence">${escape(p.hook.evidence)}</p><p class="hook-skill">${escape(p.hook.skill)}</p><a class="text-link" href="#case-${escape(p.id)}" data-case="${escape(p.id)}">Explore the study <span aria-hidden="true">↘</span></a></article>`).join('')}</div>
+ <p class="thinking-context">Examples from academic research in preclinical models. Explore each study for the experimental context, my role and the source publications.</p>
+ <div class="research-studies" aria-label="Study details and published evidence">${data.projects.map(p=>`<details class="research-study" id="case-${escape(p.id)}"><summary><span><span class="detail-label">${escape(p.subtitle)}</span><span class="study-title">${escape(p.title)}</span></span><span class="expand" aria-hidden="true">+</span></summary><div class="study-body">
+ <div class="case-brief"><div><h4>The hypothesis</h4><p>${escape(p.idea)}</p></div><div><h4>Experimental result</h4><p>${escape(p.outcome)}</p></div></div>
  <p class="case-role"><span>MY CONTRIBUTION</span>${escape(p.contribution)}</p>
  <p class="case-value"><span>VALUE FOR R&D</span>${escape(p.teamValue)}</p>
  <div class="case-evidence" aria-label="Published evidence">${directEvidence([p.publications[0]])}${p.relatedPatent?`<a class="case-patent-link" href="#patent-${escape(p.relatedPatent)}" data-patent="${escape(p.relatedPatent)}">${escape(p.patentLinkLabel)} <span aria-hidden="true">↘</span></a>`:''}</div>
- <details class="project"><summary><span>Approach & supporting studies</span><span class="expand" aria-hidden="true">+</span></summary><div class="project-content">
+ ${researchFigure(p)}
  <div class="project-fields">${[['challenge','The problem'],['approach','How the study tested it'],['relevance','Research approach']].map(([k,label])=>`<div><h4>${label}</h4><p>${escape(p[k])}</p></div>`).join('')}${p.quantitativeEvidence?`<div><h4>Measured result & comparison</h4><p>${escape(p.quantitativeEvidence)}</p>${link(p.sources[p.sources.length-1],'Read the full study','text-link')}</div>`:''}${p.relatedInsight?`<div><h4>Another targeting approach</h4><p>${escape(p.relatedInsight)}</p></div>`:''}</div>
- <div class="tags">${p.techniques.map(s=>`<span>${escape(s)}</span>`).join('')}</div><p class="detail-label">SUPPORTING PUBLICATIONS</p>${paperLinks(p.publications)}${p.contributionSource?`<p class="author-perspective">${link(p.contributionSource,'My account of the research · 2022 award review','text-link')}</p>`:''}<p class="source-note">Academic research in preclinical models.</p></div></details>
- </article>`).join('')}</div></section>`;
+ <div class="tags">${p.techniques.map(s=>`<span>${escape(s)}</span>`).join('')}</div><p class="detail-label">SUPPORTING PUBLICATIONS</p>${paperLinks(p.publications)}${p.contributionSource?`<p class="author-perspective">${link(p.contributionSource,'My account of the research · 2022 award review','text-link')}</p>`:''}<p class="source-note">Academic research in preclinical models.</p></div></details>`).join('')}</div></section>`;
 }
 function renderPublications(){
  const root=$('#publications');
@@ -125,6 +133,7 @@ function restoreAnchor(){
  }
  if(id.startsWith('pub-')){showPaper(id.slice(4));return;}
  const el=document.getElementById(id);if(!el)return;
+ if(el.matches('details.research-study'))el.open=true;
  requestAnimationFrame(()=>el.scrollIntoView({block:'start'}));
 }
 function fitNavigation(){
@@ -141,13 +150,14 @@ function fitNavigation(){
 async function init(){
  try{
  const names=['profile','themes','projects','publications','patents','career','skills'];
- const vals=await Promise.all(names.map(async n=>{const r=await fetch(`content/${n}.json?v=20260925-patents`);if(!r.ok)throw Error(n);return r.json()}));
+ const vals=await Promise.all(names.map(async n=>{const r=await fetch(`content/${n}.json?v=20260925-thinking`);if(!r.ok)throw Error(n);return r.json()}));
  data=Object.fromEntries(names.map((n,i)=>[n,vals[i]]));
  $('.focus-strip a[href="#publications"] strong').textContent=`${data.publications.filter(p=>p.type==='Original paper').length} original papers · ${data.publications.filter(p=>p.type==='Review').length} reviews`;
  $('.hero-description').textContent=data.profile.positioning;
  $('.hero-role').textContent=`${data.profile.position} · ${data.profile.organization} · ${data.profile.location}`;
- renderOverview();renderIndustry();renderThemes();renderProjects();renderPublications();renderPatents();renderCareer();
+ renderHero();renderOverview();renderIndustry();renderThemes();renderProjects();renderPublications();renderPatents();renderCareer();
  document.addEventListener('click',e=>{
+ const study=e.target.closest('[data-case]');if(study&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0){const el=document.getElementById('case-'+study.dataset.case);if(el)el.open=true}
  const th=e.target.closest('[data-theme]');if(th){const hash='#research-'+th.dataset.theme;if(location.hash!==hash)history.pushState(null,'',hash);selectTheme(th.dataset.theme,true)}
  const view=e.target.closest('[data-mode]');if(view){mode=view.dataset.mode;filter='all';updatePubs()}
  const f=e.target.closest('[data-filter]');if(f){filter=f.dataset.filter;mode='all';updatePubs()}
@@ -156,6 +166,6 @@ async function init(){
  document.documentElement.dataset.ready='true';
  fitNavigation();
  restoreAnchor();window.addEventListener('hashchange',restoreAnchor);
- }catch(err){const root=$('#details-root');if(!root.querySelector('.case-study'))root.innerHTML='<div class="wrap load-error" role="alert">The research content could not be loaded. <a href="cv/CV.pdf">Download the CV</a> or <a href="mailto:serendipity100111@gmail.com">contact Yu</a>.</div>';console.error(err)}
+ }catch(err){const root=$('#details-root');if(!root.querySelector('.research-studies'))root.innerHTML='<div class="wrap load-error" role="alert">The research content could not be loaded. <a href="cv/CV.pdf">Download the CV</a> or <a href="mailto:serendipity100111@gmail.com">contact Yu</a>.</div>';console.error(err)}
 }
 init();

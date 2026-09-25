@@ -4,7 +4,7 @@
   "position": "Senior Scientist",
   "organization": "Boehringer Ingelheim",
   "location": "Germany",
-  "positioning": "I develop targeted lipid nanoparticles for RNA delivery, turning unexpected biological insights into experimentally validated delivery strategies.",
+  "positioning": "I combine targeted LNP expertise with cross-disciplinary thinking to solve RNA-delivery problems. I turn new hypotheses into experiments that guide the next development decision.",
   "cv": "cv/CV.pdf",
   "links": [
     {
@@ -43,8 +43,8 @@
       "text": "Develop cell-specific LNPs by connecting ligand modification, lipid composition and administration route with the biology that controls delivery."
     },
     {
-      "title": "Discover and validate unexpected delivery routes",
-      "text": "I connect ideas across disciplines to uncover how LNPs can enter specific cells, then test those ideas experimentally. This approach has led to ApoE-mediated lymphatic delivery and cell-specific LNP inventions."
+      "title": "Question assumptions and test new mechanisms",
+      "text": "Connect ideas across disciplines to formulate alternative explanations for delivery behavior, then test them experimentally. Vascular normalization, transcytosis and ApoE-mediated uptake are examples of this approach."
     },
     {
       "title": "Code to understand complex biology",
@@ -55,7 +55,7 @@
       "text": "Academic experience establishing LNP manufacturing and evaluation methods, applying DoE, and supervising graduate and international students. Pharmaceutical experience includes multidisciplinary teams and external partnerships."
     }
   ],
-  "workingApproach": "Three research examples connect a delivery problem, a different hypothesis and experimental evidence. My role is stated alongside each result.",
+  "workingApproach": "I question the assumptions behind a delivery problem, connect clues across disciplines and test an alternative explanation. These studies show that approach in practice.",
   "cvRevisionDate": "2026-09-25",
   "email": "serendipity100111@gmail.com",
   "userConfirmedClaims": {
@@ -82,10 +82,10 @@
   "valuePillars": [
     {
       "label": "DESIGN",
-      "title": "Solve cell-targeting problems.",
-      "text": "Connect biological clues to a targeting hypothesis, then test uptake and functional delivery.",
-      "evidence": "ApoE-mediated lymphatic delivery",
-      "anchor": "case-lymphatic"
+      "title": "Reframe delivery problems.",
+      "text": "Question the assumed barrier, connect clues across disciplines and test an alternative mechanism.",
+      "evidence": "Scientific thinking in practice",
+      "anchor": "projects"
     },
     {
       "label": "DEVELOP",
@@ -204,5 +204,11 @@
       "title": "Develop researchers",
       "text": "Supervised graduate and international students and contributed to research team development."
     }
-  ]
+  ],
+  "hero": {
+    "headline": "Targeted LNPs.",
+    "statement": "New hypotheses.\nRigorous experiments.",
+    "approachTitle": "Question. Connect. Test.",
+    "approachText": "Connect formulation science with cell and tissue biology, then design experiments that distinguish competing explanations."
+  }
 }

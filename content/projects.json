@@ -1,5 +1,93 @@
 [
   {
+    "id": "tumor",
+    "topic": "target",
+    "title": "Change the tissue to improve particle delivery",
+    "subtitle": "Tumor endothelium · Extracellular matrix",
+    "challenge": "The tissue environment can limit how nanoparticles distribute inside a tumor, even after particles reach its blood vessels.",
+    "idea": "Test whether vascular normalization could improve delivery of 100 nm particles—even though tumor accumulation is often attributed to leaky vessels.",
+    "approach": "Tumor endothelial cell-targeted liposomal siRNA inhibited VEGFR2. The study examined vascular maturation, intratumoral particle distribution and mechanisms involving matrix remodeling.",
+    "outcome": "Particle distribution and treatment efficacy improved despite vascular maturation in the preclinical study. Inhibiting matrix metalloproteinases or depleting macrophages removed the distribution benefit.",
+    "contribution": "Developed the hypothesis that vascular normalization could improve particle delivery, and investigated the underlying mechanism; first author of the matrix-remodeling study.",
+    "contributionSource": "https://www.jstage.jst.go.jp/article/bpb/45/8/45_b22-00317/_html/-char/en",
+    "relevance": "Investigate a biological barrier as a modifiable part of the delivery system, and use mechanistic experiments to test the explanation.",
+    "steps": [
+      "Endothelial siRNA",
+      "Matrix remodeling",
+      "Improved tumor distribution"
+    ],
+    "publications": [
+      "p036",
+      "p032"
+    ],
+    "techniques": [
+      "Tumor endothelial targeting",
+      "siRNA",
+      "Tissue distribution",
+      "Mechanistic studies"
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/27633444/",
+      "https://pubmed.ncbi.nlm.nih.gov/28192155/"
+    ],
+    "evidenceNote": "Published preclinical findings. Individual attribution is supported by Sakurai's first-person 2022 award review (Biological and Pharmaceutical Bulletin, DOI 10.1248/bpb.b22-00317), especially section 5, which explicitly describes his hypothesis and development of the vascular-normalization strategy. First authorship of the 2016 matrix-remodeling paper is independently verified. No sole-inventor claim is made.",
+    "teamValue": "Expand the design choices for delivery by addressing tissue biology as well as particle composition.",
+    "researchFigure": {
+      "publication": "p032",
+      "src": "assets/research/tumor-distribution-graphical-abstract.jpg",
+      "width": 1770,
+      "height": 886,
+      "alt": "Published graphical abstract: cyclic RGD-modified siRNA particles targeting VEGFR2 are shown beside tumor sections before and after treatment. The tumor-vessel-type renal carcinoma and stroma-vessel-type colorectal models show different particle distribution responses.",
+      "takeaway": "Compare the upper and lower panels: VEGFR2 silencing improved particle distribution in tumor-vessel-type models; the stroma-vessel-type model did not show the same benefit.",
+      "context": "Figure from the 2017 follow-up study. The matrix-remodeling result and my contribution in this case refer to the 2016 study. Both are preclinical.",
+      "credit": "Source: Yamamoto, Kato, Sakurai et al. · Journal of Controlled Release · 2017",
+      "copyright": "© 2017 Elsevier B.V.",
+      "rightsUrl": "https://www.elsevier.com/about/policies-and-standards/copyright",
+      "rightsLabel": "Elsevier author reuse rights",
+      "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0168365917300615-fx1_lrg.jpg",
+      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0168365917300615"
+    },
+    "hook": {
+      "label": "VASCULAR NORMALIZATION",
+      "question": "Could more mature vessels improve delivery?",
+      "evidence": "VEGFR2-targeted siRNA improved nanoparticle delivery in preclinical tumors. Mechanistic experiments implicated remodeling of the surrounding matrix.",
+      "skill": "Treat tissue biology as a design variable."
+    }
+  },
+  {
+    "id": "transcytosis",
+    "topic": "target",
+    "title": "Test a transcellular route into tumors",
+    "subtitle": "Caveolin-1 · Transcytosis · EPR-related delivery",
+    "challenge": "VEGFR2 silencing increased liposome accumulation despite vascular maturation in a renal cell carcinoma model. The mechanism needed an explanation.",
+    "idea": "Test a route through endothelial cells involving Caveolin-1, alongside the conventional model of transport through gaps between cells.",
+    "approach": "Co-suppress Caveolin-1 and VEGFR2 using endothelial-targeted siRNA, then assess liposome accumulation and vascular structure.",
+    "outcome": "Caveolin-1 knockdown cancelled the delivery increase associated with VEGFR2 silencing without changing vascular structure, supporting involvement of a transcellular route in this model.",
+    "contribution": "First author of the Caveolin-1 study, with Akari Kato and Hideyoshi Harashima.",
+    "relevance": "Distinguish alternative explanations with a mechanistic perturbation.",
+    "teamValue": "Design experiments that separate competing delivery mechanisms.",
+    "publications": [
+      "p026"
+    ],
+    "techniques": [
+      "Mechanistic perturbation",
+      "Caveolin-1",
+      "Endothelial siRNA delivery",
+      "Liposome accumulation"
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/32087973/",
+      "https://doi.org/10.1016/j.bbrc.2020.02.086"
+    ],
+    "evidenceNote": "The primary paper reports Caveolin-1 co-silencing in a renal cell carcinoma model. The effect supports involvement of a transcellular mechanism in this setting; it does not establish a universal explanation for the EPR effect. First authorship is verified. No historical priority or sole-inventor claim is made.",
+    "hook": {
+      "label": "TRANSCYTOSIS & THE EPR EFFECT",
+      "question": "Could active transport help explain tumor delivery?",
+      "evidence": "Caveolin-1 perturbation supported a transcellular contribution to liposome accumulation in a renal tumor model.",
+      "skill": "Test an alternative to the prevailing explanation."
+    }
+  },
+  {
     "id": "lymphatic",
     "topic": "target",
     "title": "Discover an unexpected route into lymphatic endothelium",
@@ -65,61 +153,18 @@
       "rightsLabel": "Elsevier author reuse rights",
       "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0168365922007817-ga1_lrg.jpg",
       "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0168365922007817"
-    }
-  },
-  {
-    "id": "tumor",
-    "topic": "target",
-    "title": "Change the tissue to improve particle delivery",
-    "subtitle": "Tumor endothelium · Extracellular matrix",
-    "challenge": "The tissue environment can limit how nanoparticles distribute inside a tumor, even after particles reach its blood vessels.",
-    "idea": "Test whether vascular normalization could improve delivery of 100 nm particles—even though tumor accumulation is often attributed to leaky vessels.",
-    "approach": "Tumor endothelial cell-targeted liposomal siRNA inhibited VEGFR2. The study examined vascular maturation, intratumoral particle distribution and mechanisms involving matrix remodeling.",
-    "outcome": "Particle distribution and treatment efficacy improved despite vascular maturation in the preclinical study. Inhibiting matrix metalloproteinases or depleting macrophages removed the distribution benefit.",
-    "contribution": "Developed the hypothesis that vascular normalization could improve particle delivery, and investigated the underlying mechanism; first author of the matrix-remodeling study.",
-    "contributionSource": "https://www.jstage.jst.go.jp/article/bpb/45/8/45_b22-00317/_html/-char/en",
-    "relevance": "Investigate a biological barrier as a modifiable part of the delivery system, and use mechanistic experiments to test the explanation.",
-    "steps": [
-      "Endothelial siRNA",
-      "Matrix remodeling",
-      "Improved tumor distribution"
-    ],
-    "publications": [
-      "p036",
-      "p032"
-    ],
-    "techniques": [
-      "Tumor endothelial targeting",
-      "siRNA",
-      "Tissue distribution",
-      "Mechanistic studies"
-    ],
-    "sources": [
-      "https://pubmed.ncbi.nlm.nih.gov/27633444/",
-      "https://pubmed.ncbi.nlm.nih.gov/28192155/"
-    ],
-    "evidenceNote": "Published preclinical findings. Individual attribution is supported by Sakurai's first-person 2022 award review (Biological and Pharmaceutical Bulletin, DOI 10.1248/bpb.b22-00317), especially section 5, which explicitly describes his hypothesis and development of the vascular-normalization strategy. First authorship of the 2016 matrix-remodeling paper is independently verified. No sole-inventor claim is made.",
-    "teamValue": "Expand the design choices for delivery by addressing tissue biology as well as particle composition.",
-    "researchFigure": {
-      "publication": "p032",
-      "src": "assets/research/tumor-distribution-graphical-abstract.jpg",
-      "width": 1770,
-      "height": 886,
-      "alt": "Published graphical abstract: cyclic RGD-modified siRNA particles targeting VEGFR2 are shown beside tumor sections before and after treatment. The tumor-vessel-type renal carcinoma and stroma-vessel-type colorectal models show different particle distribution responses.",
-      "takeaway": "Compare the upper and lower panels: VEGFR2 silencing improved particle distribution in tumor-vessel-type models; the stroma-vessel-type model did not show the same benefit.",
-      "context": "Figure from the 2017 follow-up study. The matrix-remodeling result and my contribution described below refer to the 2016 study. Both are preclinical.",
-      "credit": "Source: Yamamoto, Kato, Sakurai et al. · Journal of Controlled Release · 2017",
-      "copyright": "© 2017 Elsevier B.V.",
-      "rightsUrl": "https://www.elsevier.com/about/policies-and-standards/copyright",
-      "rightsLabel": "Elsevier author reuse rights",
-      "sourceUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0168365917300615-fx1_lrg.jpg",
-      "publisherUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0168365917300615"
+    },
+    "hook": {
+      "label": "A NEW TARGET CELL",
+      "question": "Could a familiar uptake mechanism reach a new cell type?",
+      "evidence": "An ApoE-mediated uptake hypothesis led to siRNA delivery to lymphatic endothelial cells and in vivo VEGFR3 silencing.",
+      "skill": "Transfer a biological insight to a new context."
     }
   },
   {
     "id": "imaging",
     "topic": "target",
-    "title": "Design for the first lymph node",
+    "title": "Use DoE to optimize sentinel-node selectivity",
     "subtitle": "Lymphatic imaging · Design of Experiments",
     "challenge": "A sentinel-node probe needs to accumulate in the first draining node with limited spread to downstream nodes.",
     "idea": "Combine transport, macrophage uptake and the injection environment in the formulation strategy, then optimize the lipid composition systematically.",
@@ -157,7 +202,7 @@
       "height": 996,
       "alt": "Published graphical abstract: medium-sized negatively charged liposomes are retained in the first draining lymph node through macrophage uptake, with less signal in the next node. A lower panel illustrates sentinel-node mapping from a tumor.",
       "takeaway": "Keep the signal in the first draining lymph node: liposome size and negative surface charge favor macrophage uptake and local retention.",
-      "context": "Figure from the mechanistic imaging study in Molecular Therapy (2021). The DoE optimization described below was reported separately in Pharmaceutics (2021).",
+      "context": "Figure from the mechanistic imaging study in Molecular Therapy (2021). The DoE optimization in this case was reported separately in Pharmaceutics (2021).",
       "credit": "Source: Gomi, Sakurai et al. · Molecular Therapy · 2021",
       "copyright": "© 2020 The Authors.",
       "rightsUrl": "https://creativecommons.org/licenses/by/4.0/",

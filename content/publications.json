@@ -824,7 +824,7 @@
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36719091/"
     },
     "verifiedCitation": "Tanaka H, Hagiwara S, Shirane D, Yamakawa T, Sato Y, Matsumoto C, Ishizaki K, Hishinuma M, Chida K, Sasaki K, Yonemochi E, Ueda K, Higashi K, Moribe K, Tadokoro T, Maenaka K, Taneichi S, Nakai Y, Tange K, Sakurai Y, Akita H. Ready-to-Use-Type Lyophilized Lipid Nanoparticle Formulation for the Postencapsulation of Messenger RNA. ACS Nano. 2023;17(3):2588-2601. DOI: 10.1021/acsnano.2c10501",
-    "featuredOrder": 5
+    "featuredOrder": 4
   },
   {
     "id": "p010",
@@ -1098,7 +1098,7 @@
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36414194/"
     },
     "verifiedCitation": "Sakurai Y, Yoshikawa K, Arai K, Kazaoka A, Aoki S, Ito K, Nakai Y, Tange K, Furihata T, Tanaka H, Akita H. siRNA delivery to lymphatic endothelial cells via ApoE-mediated uptake by lipid nanoparticles. J Control Release. 2023;353:125-133. DOI: 10.1016/j.jconrel.2022.11.036",
-    "featuredOrder": 1
+    "featuredOrder": 3
   },
   {
     "id": "p013",
@@ -1218,7 +1218,7 @@
     ],
     "sourceCitation": "Sakurai Y, Watanabe H, Nishio K, Hashimoto K, Harada A, Gomi M, Suzuki M, Oyama R, Handa T, Sato R, Takeuchi H, Taira R, Tezuka K, Tange K, Nakai Y, Akita H, Uchida Y. \"pH-Responsive Lipid Nanoparticles Achieve Efficient mRNA Transfection in Brain Capillary Endothelial Cells\", Pharmaceutics. 14(8): 1560. (2022).",
     "source": "Publication_list_20260709.docx, non-empty paragraph 16",
-    "featured": false,
+    "featured": true,
     "originalMetadata": {
       "title": "pH-Responsive Lipid Nanoparticles Achieve Efficient mRNA Transfection in Brain Capillary Endothelial Cells",
       "authors": "Sakurai Y, Watanabe H, Nishio K, Hashimoto K, Harada A, Gomi M, Suzuki M, Oyama R, Handa T, Sato R, Takeuchi H, Taira R, Tezuka K, Tange K, Nakai Y, Akita H, Uchida Y",
@@ -1306,7 +1306,8 @@
     },
     "verifiedCitation": "Sakurai Y, Watanabe H, Nishio K, Hashimoto K, Harada A, Gomi M, Suzuki M, Oyama R, Handa T, Sato R, Takeuchi H, Taira R, Tezuka K, Tange K, Nakai Y, Akita H, Uchida Y. pH-Responsive Lipid Nanoparticles Achieve Efficient mRNA Transfection in Brain Capillary Endothelial Cells. Pharmaceutics. 2022;14(8):1560. DOI: 10.3390/pharmaceutics14081560",
     "authorshipNote": "Yu Sakurai shares first authorship and correspondence. The author-contribution statement credits him for conceptualization, methodology, software, visualization, supervision, project administration, funding acquisition and writing.",
-    "authorshipSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9413996/"
+    "authorshipSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9413996/",
+    "featuredOrder": 6
   },
   {
     "id": "p015",
@@ -1322,7 +1323,7 @@
     ],
     "sourceCitation": "Sakurai Y, Abe N, Yoshikawa K, Oyama R, Ogasawara S, Miura N, Nakai Y, Tange K, Tanaka H, Akita H. “Targeted delivery of lipid nanoparticle to lymphatic endothelial cells via anti-podoplanin antibody”, J Control Release, 349: 379-387 (2022).",
     "source": "Publication_list_20260709.docx, non-empty paragraph 17",
-    "featured": true,
+    "featured": false,
     "originalMetadata": {
       "title": "Targeted delivery of lipid nanoparticle to lymphatic endothelial cells via anti-podoplanin antibody",
       "authors": "Sakurai Y, Abe N, Yoshikawa K, Oyama R, Ogasawara S, Miura N, Nakai Y, Tange K, Tanaka H, Akita H",
@@ -1400,8 +1401,7 @@
       "publicationStatus": "ppublish",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35787913/"
     },
-    "verifiedCitation": "Sakurai Y, Abe N, Yoshikawa K, Oyama R, Ogasawara S, Murata T, Nakai Y, Tange K, Tanaka H, Akita H. Targeted delivery of lipid nanoparticle to lymphatic endothelial cells via anti-podoplanin antibody. J Control Release. 2022;349:379-387. DOI: 10.1016/j.jconrel.2022.06.052",
-    "featuredOrder": 2
+    "verifiedCitation": "Sakurai Y, Abe N, Yoshikawa K, Oyama R, Ogasawara S, Murata T, Nakai Y, Tange K, Tanaka H, Akita H. Targeted delivery of lipid nanoparticle to lymphatic endothelial cells via anti-podoplanin antibody. J Control Release. 2022;349:379-387. DOI: 10.1016/j.jconrel.2022.06.052"
   },
   {
     "id": "p016",
@@ -1687,7 +1687,7 @@
     "verifiedCitation": "Sakurai Y, Suzuoki M, Gomi M, Tanaka H, Akita H. Optimization of Sentinel Lymph Node Imaging Methodology Using Anionic Liposome and Hyaluronidase. Pharmaceutics. 2021;13(9):1462. DOI: 10.3390/pharmaceutics13091462",
     "authorshipNote": "Yu Sakurai: co-first and co-corresponding author. Contributions include conceptualization, investigation, data curation, visualization and writing.",
     "authorshipSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8465215/",
-    "featuredOrder": 4
+    "featuredOrder": 5
   },
   {
     "id": "p019",
@@ -1964,7 +1964,7 @@
     ],
     "sourceCitation": "Cho R†, Sakurai Y†, Jones SH, Akita H, Hisaka A, Hatakeyama H. “Silencing of VEGFR2 by RGD-modified lipid nanoparticles enhanced the efficacy of anti-PD-1 antibody by accelerating vascular normalization and infiltration of T cells in tumors”, Cancers, 12(12):3630 (2020) †:equally contributed to the manuscript",
     "source": "Publication_list_20260709.docx, non-empty paragraph 24",
-    "featured": true,
+    "featured": false,
     "originalMetadata": {
       "title": "Silencing of VEGFR2 by RGD-modified lipid nanoparticles enhanced the efficacy of anti-PD-1 antibody by accelerating vascular normalization and infiltration of T cells in tumors",
       "authors": "Cho R†, Sakurai Y†, Jones SH, Akita H, Hisaka A, Hatakeyama H",
@@ -2039,8 +2039,7 @@
       "publicationStatus": "epublish",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33291555/"
     },
-    "verifiedCitation": "Cho R, Sakurai Y, Jones HS, Akita H, Hisaka A, Hatakeyama H. Silencing of VEGFR2 by RGD-Modified Lipid Nanoparticles Enhanced the Efficacy of Anti-PD-1 Antibody by Accelerating Vascular Normalization and Infiltration of T Cells in Tumors. Cancers (Basel). 2020;12(12):3630. DOI: 10.3390/cancers12123630",
-    "featuredOrder": 6
+    "verifiedCitation": "Cho R, Sakurai Y, Jones HS, Akita H, Hisaka A, Hatakeyama H. Silencing of VEGFR2 by RGD-Modified Lipid Nanoparticles Enhanced the Efficacy of Anti-PD-1 Antibody by Accelerating Vascular Normalization and Infiltration of T Cells in Tumors. Cancers (Basel). 2020;12(12):3630. DOI: 10.3390/cancers12123630"
   },
   {
     "id": "p023",
@@ -2280,7 +2279,7 @@
     ],
     "sourceCitation": "Sakurai Y, Kato A, Harashima H. “Involvement of Caveolin-1-mediated transcytosis in the intratumoral accumulation of liposomes.”, Biochem Biophys Res Commun, 525(2):313-318 (2020).",
     "source": "Publication_list_20260709.docx, non-empty paragraph 28",
-    "featured": false,
+    "featured": true,
     "originalMetadata": {
       "title": "Involvement of Caveolin-1-mediated transcytosis in the intratumoral accumulation of liposomes.",
       "authors": "Sakurai Y, Kato A, Harashima H",
@@ -2352,7 +2351,8 @@
       "publicationStatus": "ppublish",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32087973/"
     },
-    "verifiedCitation": "Sakurai Y, Kato A, Harashima H. Involvement of Caveolin-1-mediated transcytosis in the intratumoral accumulation of liposomes. Biochem Biophys Res Commun. 2020;525(2):313-318. DOI: 10.1016/j.bbrc.2020.02.086"
+    "verifiedCitation": "Sakurai Y, Kato A, Harashima H. Involvement of Caveolin-1-mediated transcytosis in the intratumoral accumulation of liposomes. Biochem Biophys Res Commun. 2020;525(2):313-318. DOI: 10.1016/j.bbrc.2020.02.086",
+    "featuredOrder": 2
   },
   {
     "id": "p027",
@@ -3223,7 +3223,7 @@
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27633444/"
     },
     "verifiedCitation": "Sakurai Y, Hada T, Yamamoto S, Kato A, Mizumura W, Harashima H. Remodeling of the Extracellular Matrix by Endothelial Cell-Targeting siRNA Improves the EPR-Based Delivery of 100 nm Particles. Mol Ther. 2016;24(12):2090-2099. DOI: 10.1038/mt.2016.178",
-    "featuredOrder": 3
+    "featuredOrder": 1
   },
   {
     "id": "p037",

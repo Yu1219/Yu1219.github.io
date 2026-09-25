@@ -34,7 +34,7 @@ Yamamoto S, Kato A, Sakurai Y, Hada T, Harashima H. **Modality of tumor endothel
 - Copyright: © 2017 Elsevier B.V.
 - Reuse: [Elsevier author reuse rights](https://www.elsevier.com/about/policies-and-standards/copyright)
 - SHA-256: `87ee7042d0fa32d005bd1c9f620d5f3ebc9f0026f8a324025a1f8416a9845d83`
-- Interpretation boundary: Figure from the 2017 follow-up study. The matrix-remodeling result and my contribution described below refer to the 2016 study. Both are preclinical.
+- Interpretation boundary: Figure from the 2017 follow-up study. The matrix-remodeling result and my contribution in this case refer to the 2016 study. Both are preclinical.
 
 ## Imaging
 
@@ -47,4 +47,4 @@ Gomi M, Sakurai Y, Okada T, Miura N, Tanaka H, Akita H. **Development of Sentine
 - Copyright: © 2020 The Authors.
 - Reuse: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - SHA-256: `c9f8fad4accc884b7e1e7f4a91e4b2a1df84774dd8535fcc06daa66478dbbbb5`
-- Interpretation boundary: Figure from the mechanistic imaging study in Molecular Therapy (2021). The DoE optimization described below was reported separately in Pharmaceutics (2021).
+- Interpretation boundary: Figure from the mechanistic imaging study in Molecular Therapy (2021). The DoE optimization in this case was reported separately in Pharmaceutics (2021).

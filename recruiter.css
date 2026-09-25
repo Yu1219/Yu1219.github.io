@@ -267,3 +267,30 @@ article.patent h3{font-size:1.125rem;line-height:1.5;min-height:0;margin:.75rem 
  .figure-image{padding:.45rem}
 }
 @media print{.figure-image{break-inside:avoid}.figure-citation{display:block}}
+
+/* Equal research examples support a broad scientific problem-solving profile. */
+.thinking-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:1px solid var(--line)}
+.thinking-card{padding:1.6rem 1.5rem 1.6rem 0;display:flex;flex-direction:column;min-width:0}
+.thinking-card+.thinking-card{padding-left:1.5rem;border-left:1px solid var(--line)}
+.thinking-card:last-child{padding-right:0}
+.thinking-card .detail-label{font-size:.6875rem;letter-spacing:.07em;color:var(--accent);margin:0 0 .85rem}
+.thinking-card h3{font-size:1.375rem;line-height:1.4;margin:0 0 .9rem;letter-spacing:-.02em}
+.hook-evidence{font-size:.9375rem;color:var(--muted);margin:0 0 .85rem;line-height:1.7}
+.hook-skill{font-size:.875rem;color:var(--text);margin:0 0 1rem;padding-left:.8rem;border-left:2px solid #496e76;line-height:1.6}
+.thinking-card>a{font-size:.875rem;color:var(--accent);margin-top:auto;padding:.55rem 0;align-self:flex-start}
+.thinking-context{font-size:.8125rem;color:var(--muted);margin:1rem 0 1.8rem;max-width:58rem}
+.research-studies{border-top:1px solid var(--line)}
+.research-study{border-bottom:1px solid var(--line);scroll-margin-top:1rem}
+.research-study>summary{display:flex;align-items:center;gap:1.5rem;list-style:none;padding:1.25rem 0}
+.research-study>summary::-webkit-details-marker{display:none}
+.research-study>summary .detail-label{display:block;font-size:.6875rem;margin-bottom:.4rem}
+.study-title{font-size:1.125rem;line-height:1.5;color:var(--text)}
+.study-body{padding:.5rem 0 1.75rem}
+.study-body>.case-brief{gap:2rem}
+.study-body>.project-fields{gap:1.5rem 2rem}
+.study-body>.research-figure{max-width:62rem;margin:1.5rem auto 2rem}
+.research-study .figure-image img{width:100%;height:auto;max-height:34rem;object-fit:contain}
+.research-study .figure-image{aspect-ratio:auto}
+@media(max-width:980px){.thinking-grid{grid-template-columns:1fr}.thinking-card,.thinking-card+.thinking-card{padding:1.3rem 0;border-left:0}.thinking-card+.thinking-card{border-top:1px solid var(--line)}.thinking-card h3{margin-bottom:.55rem}.thinking-card a{margin-top:0}.hook-evidence{max-width:42rem}.thinking-card .detail-label{font-size:.75rem}}
+@media(max-width:700px){.study-body>.case-brief,.study-body>.project-fields{grid-template-columns:1fr;gap:1.25rem}.study-title{font-size:1.0625rem}.research-study>summary{gap:.75rem}.research-study>summary .detail-label{font-size:.6875rem}.thinking-card h3{font-size:1.25rem}.research-study .figure-image img{max-height:28rem}}
+@media print{.research-study>.study-body{display:block!important}}
